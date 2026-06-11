@@ -5,7 +5,7 @@ description = "A Model Context Protocol (MCP) server exposing fleet-telematics t
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "Your Name" }]
+authors = [{ name = "Hamid Ouni" }]
 keywords = ["mcp", "model-context-protocol", "ai-agents", "telematics", "rag", "bedrock"]
 
 dependencies = [

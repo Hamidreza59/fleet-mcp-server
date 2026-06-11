@@ -8,8 +8,8 @@ MCP-compatible AI agent (Claude Desktop, a custom Bedrock agent, etc.).
 > architecture for learning and portfolio use — no proprietary code or data.
 
 It is the data/tool half of a two-part demo. The other half is
-[`fleet-ai-agent`](../fleet-ai-agent), a TypeScript agent that connects to this
-server as an MCP client.
+[`fleet-ai-agent`](https://github.com/Hamidreza59/fleet-ai-agent), a TypeScript
+agent that connects to this server as an MCP client.
 
 ## What it exposes
 
