@@ -4,8 +4,7 @@ A [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that
 exposes **fleet-telematics tools** and a **RAG knowledge-search tool** to any
 MCP-compatible AI agent (Claude Desktop, a custom Bedrock agent, etc.).
 
-> All data is **synthetic**. This is a sanitized, clean-room reference
-> architecture for learning and portfolio use — no proprietary code or data.
+> Built from scratch as a reference architecture. All data is **synthetic**.
 
 It is the data/tool half of a two-part demo. The other half is
 [`fleet-ai-agent`](https://github.com/Hamidreza59/fleet-ai-agent), a TypeScript
@@ -24,6 +23,8 @@ agent that connects to this server as an MCP client.
 | `search_maintenance_knowledge` | **RAG**: semantic search over a maintenance knowledge base |
 
 ## Architecture
+
+![Architecture diagram](docs/architecture.png)
 
 ```
                  ┌─────────────────────────────────────────────┐
