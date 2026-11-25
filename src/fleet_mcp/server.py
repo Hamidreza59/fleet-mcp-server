@@ -46,7 +46,7 @@ def get_vehicle_data(vin: str, fleet_id: str) -> dict:
     EV state of charge), and battery voltage.
 
     Args:
-        vin: Vehicle Identification Number, e.g. "1FTBW2CMXKKB10001".
+        vin: Vehicle Identification Number, e.g. "1HGCM82633A004352".
         fleet_id: Fleet the vehicle belongs to, e.g. "FLEET-ATLAS".
     """
     try:
@@ -60,7 +60,7 @@ def get_telematics_device(unit_identifier: str, fleet_id: str) -> dict:
     """Look up the telematics device (modem/dongle) installed on a vehicle.
 
     Args:
-        unit_identifier: Device unit id, e.g. "TD-100245".
+        unit_identifier: Device unit id, e.g. "TD-000000".
         fleet_id: Fleet identifier.
     """
     try:
